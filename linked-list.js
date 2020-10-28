@@ -17,7 +17,7 @@ class LinkedList {
 		}
 	}
 
-	printOut() {
+	printAll() {
 		if (this.head === undefined) {
 			return;
 		}
@@ -36,4 +36,4 @@ linkedList.insert(new Node(4));
 linkedList.insert(new Node(6));
 linkedList.insert(new Node(7));
 linkedList.insert(new Node(9));
-linkedList.printOut();
+linkedList.printAll();
