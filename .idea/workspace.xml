@@ -28,6 +28,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RunManager">
+    <configuration name="debug" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,11 +45,67 @@
       <workItem from="1603441187776" duration="6090000" />
       <workItem from="1603704050980" duration="4815000" />
       <workItem from="1603721816541" duration="1289000" />
-      <workItem from="1603790235769" duration="2546000" />
+      <workItem from="1603790235769" duration="3197000" />
+      <workItem from="1603810990698" duration="884000" />
+      <workItem from="1603875169982" duration="4088000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1181" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603880739563">
+      <screen x="0" y="23" width="2560" height="990" />
+    </state>
+    <state x="1181" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.303.1280.777/0.23.2560.990@0.23.2560.990" timestamp="1603880739563" />
+    <state width="1664" height="330" key="GridCell.Tab.0.bottom" timestamp="1603880756505">
+      <screen x="0" y="23" width="2560" height="990" />
+    </state>
+    <state width="1664" height="330" key="GridCell.Tab.0.bottom/2560.303.1280.777/0.23.2560.990@0.23.2560.990" timestamp="1603880756505" />
+    <state width="1664" height="330" key="GridCell.Tab.0.center" timestamp="1603880756504">
+      <screen x="0" y="23" width="2560" height="990" />
+    </state>
+    <state width="1664" height="330" key="GridCell.Tab.0.center/2560.303.1280.777/0.23.2560.990@0.23.2560.990" timestamp="1603880756504" />
+    <state width="1664" height="330" key="GridCell.Tab.0.left" timestamp="1603880756503">
+      <screen x="0" y="23" width="2560" height="990" />
+    </state>
+    <state width="1664" height="330" key="GridCell.Tab.0.left/2560.303.1280.777/0.23.2560.990@0.23.2560.990" timestamp="1603880756503" />
+    <state width="1664" height="330" key="GridCell.Tab.0.right" timestamp="1603880756505">
+      <screen x="0" y="23" width="2560" height="990" />
+    </state>
+    <state width="1664" height="330" key="GridCell.Tab.0.right/2560.303.1280.777/0.23.2560.990@0.23.2560.990" timestamp="1603880756505" />
+    <state width="1664" height="330" key="GridCell.Tab.1.bottom" timestamp="1603880756506">
+      <screen x="0" y="23" width="2560" height="990" />
+    </state>
+    <state width="1664" height="330" key="GridCell.Tab.1.bottom/2560.303.1280.777/0.23.2560.990@0.23.2560.990" timestamp="1603880756506" />
+    <state width="1664" height="330" key="GridCell.Tab.1.center" timestamp="1603880756506">
+      <screen x="0" y="23" width="2560" height="990" />
+    </state>
+    <state width="1664" height="330" key="GridCell.Tab.1.center/2560.303.1280.777/0.23.2560.990@0.23.2560.990" timestamp="1603880756506" />
+    <state width="1664" height="330" key="GridCell.Tab.1.left" timestamp="1603880756505">
+      <screen x="0" y="23" width="2560" height="990" />
+    </state>
+    <state width="1664" height="330" key="GridCell.Tab.1.left/2560.303.1280.777/0.23.2560.990@0.23.2560.990" timestamp="1603880756505" />
+    <state width="1664" height="330" key="GridCell.Tab.1.right" timestamp="1603880756506">
+      <screen x="0" y="23" width="2560" height="990" />
+    </state>
+    <state width="1664" height="330" key="GridCell.Tab.1.right/2560.303.1280.777/0.23.2560.990@0.23.2560.990" timestamp="1603880756506" />
+    <state width="1664" height="330" key="GridCell.Tab.2.bottom" timestamp="1603880756508">
+      <screen x="0" y="23" width="2560" height="990" />
+    </state>
+    <state width="1664" height="330" key="GridCell.Tab.2.bottom/2560.303.1280.777/0.23.2560.990@0.23.2560.990" timestamp="1603880756508" />
+    <state width="1664" height="330" key="GridCell.Tab.2.center" timestamp="1603880756507">
+      <screen x="0" y="23" width="2560" height="990" />
+    </state>
+    <state width="1664" height="330" key="GridCell.Tab.2.center/2560.303.1280.777/0.23.2560.990@0.23.2560.990" timestamp="1603880756507" />
+    <state width="1664" height="330" key="GridCell.Tab.2.left" timestamp="1603880756507">
+      <screen x="0" y="23" width="2560" height="990" />
+    </state>
+    <state width="1664" height="330" key="GridCell.Tab.2.left/2560.303.1280.777/0.23.2560.990@0.23.2560.990" timestamp="1603880756507" />
+    <state width="1664" height="330" key="GridCell.Tab.2.right" timestamp="1603880756507">
+      <screen x="0" y="23" width="2560" height="990" />
+    </state>
+    <state width="1664" height="330" key="GridCell.Tab.2.right/2560.303.1280.777/0.23.2560.990@0.23.2560.990" timestamp="1603880756507" />
   </component>
 </project>
