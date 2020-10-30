@@ -38,17 +38,42 @@ class Node {
 		return false;
 	}
 
-	printAll () {
+	printInOrder () {
 		if (this.left !== undefined) {
-			this.left.printAll();
+			this.left.printInOrder();
 		}
 
 		console.log(this.value);
 
 		if (this.right !== undefined) {
-			this.right.printAll();
+			this.right.printInOrder();
 		}
 	}
+
+	printPreOrder () {
+		console.log(this.value);
+
+		if (this.left !== undefined) {
+			this.left.printPreOrder();
+		}
+
+		if (this.right !== undefined) {
+			this.right.printPreOrder();
+		}
+	}
+
+	printPostOrder () {
+		if (this.right !== undefined) {
+			this.right.printPostOrder();
+		}
+
+		console.log(this.value);
+
+		if (this.left !== undefined) {
+			this.left.printPostOrder();
+		}
+	}
+
 }
 
 let node;
@@ -61,4 +86,11 @@ arr.forEach(item => {
 	}
 });
 
-node.printAll();
+console.log('in order:');
+node.printInOrder();
+
+console.log('pre order:');
+node.printPreOrder();
+
+console.log('post order:');
+node.printPostOrder();
