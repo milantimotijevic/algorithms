@@ -16,6 +16,6 @@ MERGE SORT -
 Split down in half until you get to single-element arrays, then start joining them up in sorted order
 O (n log n). Stable complexity
 
-HEAP SORT -
+QUICK SORT -
 
-QUICK SORT - 
+RADIX SORT - 

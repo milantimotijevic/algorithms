@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ebe21068-2b94-4bd1-b5d2-778a4abbbd5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary-search-tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/binary-search-tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <workItem from="1603810990698" duration="884000" />
       <workItem from="1603875169982" duration="5179000" />
       <workItem from="1603968735826" duration="1350000" />
-      <workItem from="1604048332622" duration="718000" />
+      <workItem from="1604048332622" duration="1661000" />
     </task>
     <servers />
   </component>
