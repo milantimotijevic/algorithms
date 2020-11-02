@@ -17,7 +17,7 @@ Split down in half until you get to single-element arrays, then start joining th
 O (n log n). Stable complexity.
 
 QUICK SORT -
-Choose a pivot (preferably middle element), then start iterating from both sides. Compare each element with the pivot. Swap them when needed (if left is greater or right is less than the pivot). Once the pointers collide, partition the array and call quicksort on the resulting arrays.
+Choose a pivot (preferably middle element), then start iterating from the left. Move the pointer (incr left index) until you come to an element that is greater than the pivot. Freeze the pointer there. Do the inverse from the right side - move the pointer (decr right index) until you come to an element that is less than the pivot. Swap right and left. Keep doing this until the pointers collide, then divide the array at the collision point (pivot) and call quicksort on the resulting arrays. Keep doing this until the array gets sorted (recursion).
 O (n log n) average
 O (n square) worst - if the pivot is always the smallest element in the array.
 
