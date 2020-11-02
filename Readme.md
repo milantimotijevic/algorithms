@@ -14,8 +14,11 @@ Quadratic. Low memory overhead, good for smaller arrays or when data is almost s
 
 MERGE SORT -
 Split down in half until you get to single-element arrays, then start joining them up in sorted order
-O (n log n). Stable complexity
+O (n log n). Stable complexity.
 
 QUICK SORT -
+Choose a pivot (preferably middle element), then start iterating from both sides. Compare each element with the pivot. Swap them when needed (if left is greater or right is less than the pivot). Once the pointers collide, partition the array and call quicksort on the resulting arrays.
+O (n log n) average
+O (n square) worst - if the pivot is always the smallest element in the array.
 
 RADIX SORT - 
