@@ -1,7 +1,7 @@
 ALGORITHMS CHEAT SHEET
 
 SELECTION SORT - 
-Repeatedly find the minimum element as you progress down the array. Nested for loop, where i represents the outer and j inner. Each time arr[i] is greater than arr[j] they get swapped.
+Nested for loop, where i represents the outer and j inner. Continuously compare arr[i] and arr[j] where j is always i + 1. Each time arr[i] is greater than arr[j] they get swapped.
 Quadratic, low memory overhead due to not too many swaps
 
 BUBBLE SORT -
