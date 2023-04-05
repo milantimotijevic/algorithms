@@ -1,8 +1,8 @@
 ALGORITHMS CHEAT SHEET
 
 SELECTION SORT - 
-Nested for loop, where i represents the outer and j inner. Continuously compare arr[i] and arr[j] where j is always i + 1. Each time arr[i] is greater than arr[j] they get swapped.
-Quadratic, low memory overhead due to not too many swaps
+Iterate through the array and for each iteration do a whole new iteration over the (almost) entire array. Nested for loop, where i represents the outer and j inner. Continuously compare arr[i] and arr[j] where j is always i + 1. Each time arr[i] is greater than arr[j] they get swapped.
+Quadratic time complexity, low memory overhead due to not too many swaps
 
 BUBBLE SORT -
 Compare two adjacent elements and swap them accordingly. Do-while until no swaps have occurred, plus nested for loop.
