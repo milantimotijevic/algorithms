@@ -21,4 +21,34 @@ Choose a pivot (preferably middle element), then start iterating from the left. 
 O (n log n) average
 O (n square) worst - if the pivot is always the smallest element in the array.
 
-RADIX SORT - 
+SEARCH ALGORITHMS
+
+Linear Search:
+
+Description: Iterates through each element of the array sequentially until a match is found or the end of the array is reached.
+Time Complexity: O(n) (linear time).
+Binary Search:
+
+Description: Requires a sorted array. It repeatedly divides the search space in half until the target element is found or the search space is empty.
+Time Complexity: O(log n) (logarithmic time).
+Note: Binary search is efficient but requires a sorted array.
+Hashing (Hash Table):
+
+Description: Utilizes a hash function to map keys to array indices, allowing for constant-time average case lookups.
+Time Complexity: O(1) on average, but may degrade to O(n) in the worst case.
+Jump Search:
+
+Description: Similar to binary search, but instead of dividing the array into halves, it jumps ahead by a fixed number of steps.
+Time Complexity: O(√n) (square root time).
+Exponential Search:
+
+Description: Involves two steps - first, locate a range where the target may be present, and then perform a binary search within that range.
+Time Complexity: O(log n) (logarithmic time).
+Interpolation Search:
+
+Description: Particularly useful for uniformly distributed data. It estimates the position of the target based on its value and the values at the ends of the search range.
+Time Complexity: O(log log n) on average, but can be O(n) in the worst case.
+Ternary Search:
+
+Description: Divides the array into three parts instead of two, narrowing down the search space based on comparisons.
+Time Complexity: O(log3 n) (logarithmic time).
