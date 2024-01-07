@@ -1,4 +1,4 @@
-function searchRotatedArrayWithoutModulo(arr, target) {
+function searchRotatedArray(arr, target) {
     let low = 0;
     let high = arr.length - 1;
 
@@ -30,11 +30,10 @@ function searchRotatedArrayWithoutModulo(arr, target) {
     return -1; // Element not found
 }
 
-// Example usage:
 const rotatedArray = [4, 5, 6, 7, 8, 1, 2, 3];
 const target = 6;
 
-const index = searchRotatedArrayWithoutModulo(rotatedArray, target);
+const index = searchRotatedArray([4, 5, 6, 7, 8, 1, 2, 3], 6);
 
 if (index !== -1) {
     console.log(`Element ${target} found at index ${index}`);
