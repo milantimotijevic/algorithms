@@ -1,12 +1,23 @@
 {
   "name": "algorithms",
   "version": "1.0.0",
-  "description": "",
+  "description": "ALGORITHMS CHEAT SHEET",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milantimotijevic/algorithms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/milantimotijevic/algorithms/issues"
+  },
+  "homepage": "https://github.com/milantimotijevic/algorithms#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
