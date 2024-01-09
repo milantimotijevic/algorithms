@@ -1,19 +1,42 @@
-function binarySearch(array, item, lower = 0, upper = array.length - 1) {
-    if (lower <= upper) {
-        const middle = Math.floor((lower + upper) / 2);
+function findIndexOf(arr, target) {
+    let low = 0;
+    let high = arr.length - 1;
 
-        if (item === array[middle]) {
-            return `Item ${item} found at index ${middle}`;
+    while (low <= high) {
+        const mid = Math.floor((low + high) / 2);
+
+        // check target is at the tail, middle or the head of the current portion
+        if (target === arr[mid]) {
+            return mid;
         }
 
-        if (item > array[middle]) {
-            return binarySearch(array, item, middle + 1, upper);
+        if (target === arr[low]) {
+            return low;
+        }
+
+        if (target === arr[high]) {
+            return high;
+        }
+
+        // Check which side of the pivot the mid element is on
+        if (arr[low] <= arr[mid]) {
+            // Left side is sorted
+            if (target > arr[low] && target < arr[mid]) {
+                high = mid - 1; // Target is in the left sorted subarray
+            } else {
+                low = mid + 1; // Target is in the right subarray
+            }
         } else {
-            return binarySearch(array, item, lower, upper - 1);
+            // Right side is sorted
+            if (target > arr[mid] && target < arr[high]) {
+                low = mid + 1; // Target is in the right sorted subarray
+            } else {
+                high = mid - 1; // Target is in the left subarray
+            }
         }
     }
 
-    return `Item ${item} not found`;
+    return -1; // Element not found
 }
 
-console.log(binarySearch([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], 4));
+console.log(findIndexOf([7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 1, 2, 4, 5, 6], 16))
