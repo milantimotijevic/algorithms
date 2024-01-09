@@ -21,14 +21,14 @@ function findIndexOf(arr, target) {
         // Check which side of the pivot the mid element is on
         if (arr[low] <= arr[mid]) {
             // Left side is sorted
-            if (target > arr[low] && target < arr[mid]) {
+            if (arr[low] < target && target < arr[mid]) {
                 high = mid - 1; // Target is in the left sorted subarray
             } else {
                 low = mid + 1; // Target is in the right subarray
             }
         } else {
             // Right side is sorted
-            if (target > arr[mid] && target < arr[high]) {
+            if (arr[mid] < target && target < arr[high]) {
                 low = mid + 1; // Target is in the right sorted subarray
             } else {
                 high = mid - 1; // Target is in the left subarray
@@ -39,4 +39,4 @@ function findIndexOf(arr, target) {
     return -1; // Element not found
 }
 
-console.log(findIndexOf([7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 1, 2, 4, 5, 6], 16))
+console.log(findIndexOf([7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 1, 2, 3, 4, 5, 6], 3))
