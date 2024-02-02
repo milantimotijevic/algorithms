@@ -58,23 +58,24 @@ Time Complexity: O(log3 n) (logarithmic time).
 
 SOLID
 
-Single Responsibility Principle (SRP):
-
+**Single Responsibility Principle (SRP):**
 Idea: A class should have only one reason to change.
 Simple Explanation: Each class should do one thing and do it well. If a class has too many responsibilities, it becomes harder to understand and maintain.
-Open/Closed Principle (OCP):
 
+
+**Open/Closed Principle (OCP):**
 Idea: Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
 Simple Explanation: You can add new features or behaviors without changing existing code. This promotes code stability and reusability.
-Liskov Substitution Principle (LSP):
 
+
+**Liskov Substitution Principle (LSP):**
 Idea: Subtypes must be substitutable for their base types without altering the correctness of the program.
 Simple Explanation: If you have a base class and a derived class, you should be able to use objects of the derived class wherever objects of the base class are expected, without causing issues.
-Interface Segregation Principle (ISP):
 
+**Interface Segregation Principle (ISP):**
 Idea: A class should not be forced to implement interfaces it does not use.
 Simple Explanation: Classes should not be burdened with implementing methods they don't need. It's better to have smaller, more specific interfaces.
-Dependency Inversion Principle (DIP):
 
+**Dependency Inversion Principle (DIP):**
 Idea: High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details; details should depend on abstractions.
 Simple Explanation: Depend on abstractions (like interfaces) rather than concrete implementations. This promotes flexibility and makes it easier to change parts of the system without affecting others.
